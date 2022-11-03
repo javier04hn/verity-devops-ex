@@ -26,6 +26,14 @@ pipeline {
 		
 		//Code starts for stage Compile
 
+		//Code starts for stage Compile
+		stage('Compile') {
+            steps {
+                sh 'mvn compile'
+            }
+        }
+		//Code ends for stage Compile
+
 		
 	
 	
